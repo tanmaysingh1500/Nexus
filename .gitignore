@@ -1,0 +1,80 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.code-workspace
+
+# Root env and temp
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.log
+.cache/
+tmp/
+temp/
+.next/
+.playwright-mcp/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.ipynb_checkpoints/
+
+# Backend
+backend/.env
+backend/.env.*
+backend/*.log
+backend/.uv/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/htmlcov/
+backend/.coverage
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+frontend/.env
+frontend/.env.*
+frontend/*.log
+
+# Build artifacts
+build/
+dist/
+coverage/
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+crash.log
+
+# Kubernetes local configs
+kubeconfig*
+*.kubeconfig
+
+# Archives
+*.zip
+*.tar
+*.gz
